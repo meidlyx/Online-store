@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color: white;
+    font-family: Montserrat;
+}
+
+.menu {
+    background-color: rgb(222, 222, 222);
+    padding-left: 25px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    width: 1475px;
+}
+
+.city {
+    margin-left: 15px;
+}
+
+.points {
+    margin-left: 15px;
+}
+
+.delivery{
+    margin-left: 150px;
+}
+
+.question{
+    margin-left: 230px;
+}
+
+.order {
+    margin-left: 50px;
+}
+
+.name {
+    font-size: 30px;
+    color: red;
+    padding: 40px;
+}
+
+.catalog {
+    font-size: 25px;
+    background-color: rgb(201, 233, 255);
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 7px;
+    color: rgb(73, 81, 124);
+}
+
+.search {
+    font-size: 15px;
+    border: 2px solid black;
+    padding-left: 150px;
+    padding-top: 13px;
+    padding-bottom: 8px;
+    padding-right: 150px;
+    color: gray;
+    border-radius: 5px;
+}
+
+.login {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.favourites {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.basket {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+catalog1 {
+    color: gray;
+}
+catalog1 ul {
+    list-style: none;
+    padding-left: 300px;
+    padding-top: 10px;
+    display: flex;
+}
+catalog1 li {
+    margin-right: 20px;
+}
+
+.vse {
+    border: 1px solid #999999;
+    border-radius: 3px;
+    margin-right: 1000px;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.photo {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.namepc {
+    font-family: Lato;
+    padding-left: 25px;
+    font-size: 23px;
+    margin-top: -10px;
+}
+.proiz {
+    font-family: Lato;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: -20px;
+    
+}
+.price {
+    font-family: Lato;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #B12704;
+    margin-bottom: 5px;
+}
+.harak {
+    font-family: Lato;
+    font-size: 15px;
+    background-color: #ebebeb;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding-top: px;
+    padding-left: 17px;
+    padding-bottom: 10px;
+}
+.harak2 {
+    margin-bottom: -15px;
+}
+.buy {
+    background-color: rgb(255, 210, 159);
+    color: rgb(255, 128, 0);
+    padding: 1px;
+    margin-top: 25px;
+    margin-left: 290px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+a1 {
+    text-decoration: none;
+    color: gray;
+    position: relative;
+    cursor: pointer;
+}
+a1:hover {
+    text-decoration: underline;
+    color: gray;
+}
+.animka {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+  }
+.animka img {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+  }
+.animka img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+  }
